@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 1535px;
+    width: 100%;
+    min-height: 70px;
+    border: none;
+    background-color: black;
+}
+
+.left{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    min-height: 70px;
+    border: none;
+    justify-content:flex-start;
+    
+}
+
+.sembol{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    min-height:50px;
+    background-color: lightskyblue;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.center{
+    display: flex;
+    max-width:900px;
+    width: 100%;
+    min-height: 70px;
+
+    justify-content: center;
+    
+}
+
+.dersler{
+    max-width: 100px;
+    width: 100%;
+    min-height: 70;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btnders{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+}
+.video{
+    max-width: 100px;
+    width: 100%;
+    min-height: 70;
+    background-color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btnvideo{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+}
+.galeri{
+    max-width: 100px;
+    width: 100%;
+    min-height: 70;
+    background-color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btngaleri{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+}
+.iletisim{
+    max-width: 100px;
+    width: 100%;
+    min-height: 70px;
+    background-color: black;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    
+}
+.btniletisim{
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    min-height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.right{
+    display: flex;
+    max-width: 335px;
+    width: 100%;
+    min-height: 70px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.giris{
+    display: flex;
+    max-width: 100px;
+    width: 100px;
+    min-height: 30px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    
+}
+.giris:hover{
+    display: flex;
+    max-width: 100px;
+    width: 100px;
+    min-height: 30px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    
+}
+
+.kayit{
+    display: flex;
+    max-width: 100px;
+    width: 100px;
+    min-height: 30px;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.kayit:hover{
+    display: flex;
+    max-width: 100px;
+    width: 100px;
+    min-height: 30px;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
